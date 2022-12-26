@@ -1,0 +1,136 @@
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Gym Template">
+    <meta name="keywords" content="Gym, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BMI</title>
+
+    <style>
+        body {
+            background-image: url(img/bg.jpg);
+            color: white;
+        }
+
+        .breadcrumb-text {
+            position: absolute;
+            display: inline-block;
+
+            width: 183px;
+
+            left: 556px;
+            top: 40px padding: 4px 14px;
+
+
+            font-size: 25px;
+
+        }
+
+        .chart-table {
+            position: absolute;
+            width: 264px;
+            padding: 116px;
+            display: inline-block;
+            left: 424px;
+            top: 134px;
+
+        }
+
+        .bmi {
+            display: block;
+            position: absolute;
+            left: 507px;
+            top: 119px;
+            font-size: 25px;
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+
+
+
+
+    <!-- Breadcrumb Section Begin -->
+
+    <div class="breadcrumb-text">
+        <button>
+            <h2>BMI calculator</h2>
+        </button>
+    </div>
+
+    <!-- Breadcrumb Section End -->
+
+    <!-- BMI Calculator Section Begin -->
+
+    <div class="bmi">
+        <h2>Calculate your BMI</h2>
+    </div>
+    <div class="chart-table">
+        <table border="3px">
+            <thead>
+                <tr>
+                    <th>Bmi</th>
+                    <th>WEIGHT STATUS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="point">Below 18.5</td>
+                    <td>Underweight</td>
+                </tr>
+                <tr>
+                    <td class="point">18.5 - 24.9</td>
+                    <td>Healthy</td>
+                </tr>
+                <tr>
+                    <td class="point">25.0 - 29.9</td>
+                    <td>Overweight</td>
+                </tr>
+                <tr>
+                    <td class="point">30.0 - and Above</td>
+                    <td>Obese</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </div>
+
+    <div class="chart-calculate-form">
+
+        <form action="#">
+            <div class="row">
+                <div class="col-sm-6">
+                    <input type="text" placeholder="Height / cm">
+                </div>
+                <div class="col-sm-6">
+                    <input type="text" placeholder="Weight / kg">
+                </div>
+                <div class="col-sm-6">
+                    <input type="text" placeholder="Age">
+                </div>
+                <div class="col-sm-6">
+                    <input type="text" placeholder="Sex">
+                </div>
+                <div class="col-lg-12">
+                    <button type="submit">Calculate</button>
+                </div>
+            </div>
+        </form>
+
+        <!-- BMI Calculator Section End -->
+
+
+
+
+
+
+</body>
+
+</html>

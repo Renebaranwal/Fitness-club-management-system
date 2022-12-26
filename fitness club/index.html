@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness club</title>
+</head>
+
+<style>
+    /*  CSS Reset */
+    body {
+
+        color: aliceblue;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/img.jpg');
+        background-size: cover;
+    }
+
+
+
+    .left {
+        position: absolute;
+        left: 20px;
+        top: 10px;
+        display: inline-block;
+        border: 20px;
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .right {
+        display: block;
+        width: 33%;
+        margin: 12px auto;
+        border: 20px;
+        font-style: normal;
+
+    }
+
+    .mid h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .mid {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        display: inline-block;
+        border: 20px;
+        padding: 26px;
+    }
+
+    .navbar {
+        display: inline-block;
+        width: 501px;
+
+    }
+
+    .navbar li {
+        font-size: 20px;
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: aliceblue;
+        text-decoration: none;
+        padding: 20px 15px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: solid;
+        color: rgb(155, 165, 165);
+
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 106px 80px;
+        padding: 30px;
+        width: 32%;
+        border-radius: 28px
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .btn:hover {
+        background-color: rgb(133, 135, 136);
+    }
+
+    .btn {
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid white;
+        border-radius: 10px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        padding: 1px;
+        width: 380px;
+        border: 2px solid white;
+        border-radius: 8px;
+        font-size: 25px;
+        margin: 11px;
+    }
+
+    .btn {
+        display: block;
+        width: 380px;
+        margin: auto;
+    }
+
+    .container label input {
+        width: 80px;
+        margin: auto;
+        font-size: 50px;
+
+    }
+
+    .square {
+
+        position: absolute;
+        right: 22px;
+        top: 57px;
+        display: block;
+        border: 3px solid white;
+        padding: 27px;
+        width: 498px;
+        border-color: white;
+        border-width: 3px;
+        border-radius: 27px;
+        margin: 106px 80px;
+    }
+
+    .square p {
+        font-size: 25px;
+
+    }
+
+    .square table {
+        font-size: 26px;
+
+    }
+
+    .square h1 {
+        text-align: center;
+    }
+
+    
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="https://rare-gallery.com/mocahbig/461691-Lenovo-logo-simple-background-computer-black-background.png"
+                alt="" width="200px">
+            <div>my Fitness cluB</div>
+        </div>
+
+        <div class="mid">
+            <h1>Fitness mode</h1>
+            <form action=""></form>
+
+        </div>
+        <div class="right">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="about us.html">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="class-timetable.html">Time Table</a></li>
+                <li><a href="bmi.html">BMI</a></li>
+
+            </ul>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>Register HERE</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="email" name="" placeholder="Enter your Email id">
+            </div>
+            <div class="form-group">
+                <input type="number" name="" placeholder="Enter your mobile number">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your address">
+            </div>
+            <div class="form-group">
+                <h2>
+                    <center> Enter your Date of birth </center>
+                </h2>
+
+            </div>
+            <div class="form-group">
+                <input type="date" name="">
+            </div>
+            <div class="gender">
+                <label for="Sectionid">
+                    <input type="radio" value="Section " name="Section" id="Sectionid"> Male
+                    <input type="radio" value="Section " name="Section" id="Sectionid"> Female
+                    <input type="radio" name="Section" id="Sectionid"> Other
+                </label>
+            </div>
+
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    <div class="square">
+        <h1><u>Subscription</u></h1>
+        <table border="4px">
+            <th>Time Period</th>
+            <th>Price</th>
+            <th>Discount</th>
+            <th>Bonus</th>
+            <th>Coupon</th>
+            <tr>
+                <td>6 months</td>
+                <td>$600</td>
+                <td>20%</td>
+                <td>N\A</td>
+                <td>N\A</td>
+            </tr>
+            <tr>
+                <td>12 months</td>
+                <td>$900</td>
+                <td>45%</td>
+                <td>YES</td>
+                <td>YES</td>
+            </tr>
+            <tr>
+                <td>18 months</td>
+                <td>$750</td>
+                <td>70%</td>
+                <td>YES</td>
+                <td>YES</td>
+            </tr>
+            <tr>
+                <td>24 months</td>
+                <td>$500</td>
+                <td>85%</td>
+                <td>YES</td>
+                <td>YES</td>
+            </tr>
+
+        </table>
+
+
+    </div>
+  
+
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>
